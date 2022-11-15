@@ -82,7 +82,7 @@ end)
 local Tab = Window:NewTab("Admin Scripts")
 local Section = Tab:NewSection("Admin scripts")
 Section:NewButton("FE Fly", "By Kostya#3329", function()
-local main = Instance.new("ScreenGui")
+    local main = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local up = Instance.new("TextButton")
 local down = Instance.new("TextButton")
@@ -555,6 +555,7 @@ mini.Visible = true
 mini2.Visible = false
 main.Frame.BackgroundTransparency = 0 
 closebutton.Position = UDim2.new(0, 0, -1, 27)
+end)
 end)
 Section:NewButton("Break Chat", "check the chat xd", function()
     local args = {
