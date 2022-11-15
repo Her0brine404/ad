@@ -557,6 +557,7 @@ main.Frame.BackgroundTransparency = 0
 closebutton.Position = UDim2.new(0, 0, -1, 27)
 end)
 end)
+
 Section:NewButton("Break Chat", "check the chat xd", function()
     local args = {
     [1] = " ",
