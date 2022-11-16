@@ -11,7 +11,7 @@ Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 Text = "+9.9M Robux";
 Title = "Robux";
-Icon = "https://create.roblox.com/marketplace/asset/862638102/Robux?pageNumber=1&pagePosition=10&keyword=Robux"})
+Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 
 
 local player = game.Players.LocalPlayer
@@ -709,4 +709,3 @@ local Section = Tab:NewSection("Creator: Anha#4156")
 local Section = Tab:NewSection("Helper: Kostya#3329")
 
 print("test")
-
