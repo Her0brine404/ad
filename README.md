@@ -628,6 +628,32 @@ end)
 Section:NewSlider("Speed", "Flash!!!", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
+local Tab = Window:NewTab("Sell Items")
+local Section = Tab:NewSection("Sell Items")
+Section:NewButton("Sell Angel Eye", "drop", function()
+    local args = {
+    [1] = "Angel Eye"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Equip:FireServer(unpack(args))
+wait(0.4)
+local args = {
+    [1] = "Angel Eye"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
+Section:NewButton("Sell Banana", "drop", function()
+    local args = {
+    [1] = "The banana"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Equip:FireServer(unpack(args))
+wait(0.4)
+local args = {
+    [1] = "The banana"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
 local Tab = Window:NewTab("Drop Items")
 local Section = Tab:NewSection("Drop Items")
 Section:NewButton("Drop Angel Eye", "drop", function()
