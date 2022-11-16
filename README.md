@@ -11,7 +11,7 @@ Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 Text = "+9.9M Points";
 Title = "Player Points";
-Icon = "rbxthumb://type=Asset&id=154566351&w=150&h=150"})
+Icon = "https://create.roblox.com/marketplace/asset/154566351/Player-Points-Icon-HD?pageNumber=1&pagePosition=13&keyword=player+point"})
 
 
 local player = game.Players.LocalPlayer
