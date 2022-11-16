@@ -630,32 +630,6 @@ Section:NewSlider("Speed", "Flash!!!", 500, 0, function(s) -- 500 (MaxValue) | 0
 end)
 local Tab = Window:NewTab("Drop Items")
 local Section = Tab:NewSection("Drop Items")
-Section:NewButton("Drop Angel Eye", "drop", function()
-    local args = {
-    [1] = "Angel Eye"
-}
-
-game:GetService("ReplicatedStorage").RemoteEvents.Equip:FireServer(unpack(args))
-wait(0.4)
-local args = {
-    [1] = "Angel Eye"
-}
-
-game:GetService("ReplicatedStorage").RemoteEvents.Drop:FireServer(unpack(args))
-end)
-Section:NewButton("Drop F", "drop", function()
-    local args = {
-    [1] = "F"
-}
-
-game:GetService("ReplicatedStorage").RemoteEvents.Equip:FireServer(unpack(args))
-wait(0.4)
-local args = {
-    [1] = "F"
-}
-
-game:GetService("ReplicatedStorage").RemoteEvents.Drop:FireServer(unpack(args))
-end)
 Section:NewButton("Drop harambe", "drop", function()
     local args = {
     [1] = "Box Toy Harambe"
