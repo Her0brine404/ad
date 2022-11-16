@@ -701,3 +701,5 @@ local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Owner: Anha#4156")
 local Section = Tab:NewSection("Creator: Anha#4156")
 local Section = Tab:NewSection("Helper: Kostya#3329")
+
+print("test")
