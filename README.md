@@ -8,6 +8,11 @@ Text = "";
 Title = "Helper: Kostya#3329";
 Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+Text = "+9.9M Points";
+Title = "Player Points";
+Icon = "rbxthumb://type=Asset&id=154566351&w=150&h=150"})
+
 
 local player = game.Players.LocalPlayer
 
