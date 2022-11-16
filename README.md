@@ -9,9 +9,9 @@ Title = "Helper: Kostya#3329";
 Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
-Text = "+9.9M Points";
-Title = "Player Points";
-Icon = "https://create.roblox.com/marketplace/asset/154566351/Player-Points-Icon-HD?pageNumber=1&pagePosition=13&keyword=player+point"})
+Text = "+9.9M Robux";
+Title = "Robux";
+Icon = "https://create.roblox.com/marketplace/asset/862638102/Robux?pageNumber=1&pagePosition=10&keyword=Robux"})
 
 
 local player = game.Players.LocalPlayer
