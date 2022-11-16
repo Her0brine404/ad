@@ -23,7 +23,8 @@ local White = {
     "emo_piks",
     "kabikov100000",
     "AMIRKA_228rusKZ",
-    "ArtAcker4"
+    "ArtAcker4",
+    "arsh7854"
 
 }
 
