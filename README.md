@@ -580,49 +580,49 @@ end)
 
 Section:NewButton("Break Chat", "check the chat xd", function()
     local args = {
-    [1] = " ",
+    [1] = " ",
     [2] = "All"
 }
 
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
     local args = {
-    [1] = " ",
+    [1] = " ",
     [2] = "All"
 }
 
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
     local args = {
-    [1] = " ",
+    [1] = " ",
     [2] = "All"
 }
 
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
     local args = {
-    [1] = " ",
+    [1] = " ",
     [2] = "All"
 }
 
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
     local args = {
-    [1] = " ",
+    [1] = " ",
     [2] = "All"
 }
 
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
     local args = {
-    [1] = " ",
+    [1] = " ",
     [2] = "All"
 }
 
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
     local args = {
-    [1] = " ",
+    [1] = " ",
     [2] = "All"
 }
 
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
     local args = {
-    [1] = " ",
+    [1] = " ",
     [2] = "All"
 }
 
