@@ -628,6 +628,7 @@ end)
 Section:NewSlider("Speed", "Flash!!!", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
+
 local Tab = Window:NewTab("Drop Items")
 local Section = Tab:NewSection("Drop Items")
 Section:NewButton("Drop Angel Eye", "drop", function()
