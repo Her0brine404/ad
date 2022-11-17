@@ -1,18 +1,3 @@
-game:GetService("StarterGui"):SetCore("SendNotification", { 
-Title = "Pop it trading script";
-Text = "By Anha#4156";
-Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
-
-game:GetService("StarterGui"):SetCore("SendNotification", { 
-Text = "";
-Title = "Helper: Kostya#3329";
-Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
-
-game:GetService("StarterGui"):SetCore("SendNotification", { 
-Text = "+9.9M Robux";
-Title = "Robux";
-Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
-
 
 local player = game.Players.LocalPlayer
 
@@ -37,12 +22,27 @@ local White = {
 
 
 if not table.find(White,player.Name) then
-    player:Kick("You are not whitelisted | Text Anha#4156 to buy script")
+    player:Kick("Same account launched game from different device.Reconnect if you prefer to use this device.")
     return;
 end
 
 
 
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+Title = "Pop it trading script";
+Text = "By Anha#4156";
+Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+Text = "";
+Title = "Helper: Kostya#3329";
+Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+Text = "+9.9M Robux";
+Title = "Robux";
+Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
