@@ -1,4 +1,5 @@
- 
+--if u read this u gay lol--
+
 local player = game.Players.LocalPlayer
 
 local White = {
