@@ -10,7 +10,6 @@ local White = {
     "ggddaass9087",
     "the_richestPlayerME",
     "albina09875",
-    "emo_piks",
     "kabikov100000",
     "AMIRKA_228rusKZ",
     "ArtAcker4",
