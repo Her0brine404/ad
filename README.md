@@ -16,8 +16,7 @@ local White = {
     "ArtAcker4",
     "arsh7854",
     "poli_offs",
-    "XOX_Studios",
-    "emo_piks"
+    "XOX_Studios"
  
 
 }
