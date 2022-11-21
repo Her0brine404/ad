@@ -14,7 +14,6 @@ local White = {
     "kabikov100000",
     "AMIRKA_228rusKZ",
     "ArtAcker4",
-    "arsh7854",
     "poli_offs",
     "XOX_Studios"
  
