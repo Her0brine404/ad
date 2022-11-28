@@ -28,6 +28,10 @@ end
 
 
 
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+Title = "Roblox";
+Text = "Sussy Activity after 5 days u will be banned";
+Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 Title = "Pop it trading script";
@@ -42,7 +46,7 @@ Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 Text = "+9.9M Robux";
 Title = "Robux";
-Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Icon = "rbxthumb://type=Asset&id=1542459468&w=150&h=150"})
 
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
