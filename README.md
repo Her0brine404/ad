@@ -58,7 +58,148 @@ local Section = Tab:NewSection("Guys")
 local Section = Tab:NewSection("In this script only 50%")
 local Section = Tab:NewSection("Sorry")
 local Section = Tab:NewSection("in privious script is bug")
-local Tab = Window:NewTab("!NEW! Fake Drop")
+local Tab = Window:NewTab("Visual Money GUI")
+local Section = Tab:NewSection("VISUAL")
+Section:NewButton("Enable UI", "", function()
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Visual Money", "DarkTheme")
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("Main")
+Section:NewToggle("Inf money", "", function(state)
+    if state then
+                getgenv().infm = true;
+
+while wait() do
+    if getgenv().infm == true then
+        game:GetService("Players").LocalPlayer.Cash.Value = "inf"
+    end
+end
+    else
+                getgenv().infm = false;
+
+while wait() do
+    if getgenv().infm == true then
+        game:GetService("Players").LocalPlayer.Cash.Value = "inf"
+    end
+end
+    end
+end)
+Section:NewToggle("funny number", "", function(state)
+    if state then
+                getgenv().cool = true;
+
+while wait() do
+    if getgenv().cool == true then
+        game:GetService("Players").LocalPlayer.Cash.Value = 69420
+    end
+end
+    else
+                getgenv().cool = false;
+
+while wait() do
+    if getgenv().cool == true then
+        game:GetService("Players").LocalPlayer.Cash.Value = 69420
+    end
+end
+    end
+end)
+Section:NewToggle("1", "", function(state)
+    if state then
+                getgenv().one = true;
+
+while wait() do
+    if getgenv().one == true then
+        game:GetService("Players").LocalPlayer.Cash.Value = "1"
+    end
+end
+    else
+                getgenv().one = false;
+
+while wait() do
+    if getgenv().one == true then
+        game:GetService("Players").LocalPlayer.Cash.Value = "1"
+    end
+end
+    end
+end)
+Section:NewToggle("100 qd", "", function(state)
+    if state then
+                getgenv().qd = true;
+
+while wait() do
+    if getgenv().qd == true then
+        game:GetService("Players").LocalPlayer.Cash.Value = 99999999999999999
+    end
+end
+    else
+                getgenv().qd = false;
+
+while wait() do
+    if getgenv().qd == true then
+        game:GetService("Players").LocalPlayer.Cash.Value = 99999999999999999
+    end
+end
+    end
+end)
+Section:NewToggle("0", "", function(state)
+    if state then
+                getgenv().zero = true;
+
+while wait() do
+    if getgenv().zero == true then
+        game:GetService("Players").LocalPlayer.Cash.Value = 0
+    end
+end
+    else
+                getgenv().zero = false;
+
+while wait() do
+    if getgenv().zero == true then
+        game:GetService("Players").LocalPlayer.Cash.Value = 0
+    end
+end
+    end
+end)
+Section:NewToggle("100t", "", function(state)
+    if state then
+                getgenv().t = true;
+
+while wait() do
+    if getgenv().t == true then
+        game:GetService("Players").LocalPlayer.Cash.Value = 100000000000000
+    end
+end
+    else
+                getgenv().t = false;
+
+while wait() do
+    if getgenv().t == true then
+        game:GetService("Players").LocalPlayer.Cash.Value = 100000000000000
+    end
+end
+    end
+end)
+Section:NewToggle("WTHH", "", function(state)
+    if state then
+                getgenv().m = true;
+
+while wait() do
+    if getgenv().m == true then
+        game:GetService("Players").LocalPlayer.Cash.Value = -69420
+    end
+end
+    else
+                getgenv().m = false;
+
+while wait() do
+    if getgenv().m == true then
+        game:GetService("Players").LocalPlayer.Cash.Value = -69420
+    end
+end
+    end
+end)
+end)
+local Tab = Window:NewTab("Fake Drop")
 local Section = Tab:NewSection("fake drop ")
 Section:NewButton("Enable fake drop", "Button", function()
     game.Players.LocalPlayer.Character.RightHand:Destroy()
