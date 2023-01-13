@@ -124,18 +124,18 @@ end
 end)
 Section:NewToggle("100 qd", "", function(state)
     if state then
-                getgenv().qd = true;
+                getgenv().da = true;
 
 while wait() do
-    if getgenv().qd == true then
+    if getgenv().da == true then
         game:GetService("Players").LocalPlayer.Cash.Value = 99999999999999999
     end
 end
     else
-                getgenv().qd = false;
+                getgenv().da = false;
 
 while wait() do
-    if getgenv().qd == true then
+    if getgenv().da == true then
         game:GetService("Players").LocalPlayer.Cash.Value = 99999999999999999
     end
 end
