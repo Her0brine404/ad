@@ -215,6 +215,39 @@ Section:NewToggle("Xray", " ", function(state)
 end)
 local Tab = Window:NewTab("Dupe")
 local Section = Tab:NewSection("Dupe")
+Section:NewButton("Buy Hand Rainbow", "Buy", function()
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Hand Rainbow")
+end)
+Section:NewButton("Buy Hand Black", "Buy", function()
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Hand Black")
+end)
+Section:NewButton("Buy Hand White", "Buy", function()
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Hand White")
+end)
+Section:NewButton("Buy Hand Red", "Buy", function()
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Hand Red")
+end)
+Section:NewButton("Buy Hand Orange", "Buy", function()
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Hand Orange")
+end)
+Section:NewButton("Buy Hand Pink", "Buy", function()
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Hand Pink")
+end)
+Section:NewButton("Buy Hand Purple", "Buy", function()
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Hand Purple")
+end)
+Section:NewButton("Buy Hand Blue", "Buy", function()
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Hand Blue")
+end)
+Section:NewButton("Buy Hand Cyan", "Buy", function()
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Hand Cyan")
+end)
+Section:NewButton("Buy Hand Green", "Buy", function()
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Hand Green")
+end)
+Section:NewButton("Buy Hand Yellow", "Buy", function()
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Hand Yellow")
+end)
 Section:NewButton("Buy Silver Trophy", "Buy", function()
     game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Silver")
 end)
@@ -738,49 +771,49 @@ end)
 
 Section:NewButton("Break Chat", "check the chat xd", function()
     local args = {
-    [1] = " ",
+    [1] = " ",
     [2] = "All"
 }
 
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
     local args = {
-    [1] = " ",
+    [1] = " ",
     [2] = "All"
 }
 
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
     local args = {
-    [1] = " ",
+    [1] = " ",
     [2] = "All"
 }
 
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
     local args = {
-    [1] = " ",
+    [1] = " ",
     [2] = "All"
 }
 
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
     local args = {
-    [1] = " ",
+    [1] = " ",
     [2] = "All"
 }
 
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
     local args = {
-    [1] = " ",
+    [1] = " ",
     [2] = "All"
 }
 
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
     local args = {
-    [1] = " ",
+    [1] = " ",
     [2] = "All"
 }
 
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
     local args = {
-    [1] = " ",
+    [1] = " ",
     [2] = "All"
 }
 
