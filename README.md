@@ -215,6 +215,25 @@ Section:NewToggle("Xray", " ", function(state)
 end)
 local Tab = Window:NewTab("Dupe")
 local Section = Tab:NewSection("Dupe")
+Section:NewToggle("Auto buy hand rb", "", function(state)
+    if state then
+        getgenv().abuy = true;
+
+while wait() do
+    if getgenv().abuy == true then
+        game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Hand Rainbow")
+    end
+end
+    else
+        getgenv().abuy = false;
+
+while wait() do
+    if getgenv().abuy == true then
+        game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Hand Rainbow")
+    end
+end
+    end
+end)
 Section:NewButton("Buy Hand Rainbow", "Buy", function()
     game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Hand Rainbow")
 end)
