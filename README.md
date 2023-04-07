@@ -1,54 +1,6 @@
---if u read this u gay lol--
-
-local player = game.Players.LocalPlayer
-
-local White = {
-    "RobinConway9",
-    "KostyaTasher",
-    "Her0brine404",
-    "motik_potik228",
-    "Daunich2281337",
-    "ggddaass9087",
-    "the_richestPlayerME",
-    "albina09875",
-    "kabikov100000",
-    "AMIRKA_228rusKZ",
-    "ArtAcker4",
-    "poli_offs",
-    "XOX_Studios",
-    "emo_piks",
-    "imba_perchi"
- 
-
-}
-
-
-if not table.find(White,player.Name) then
-    player:Kick("Same account launched game from different device.Reconnect if you prefer to use this device.")
-    return;
-end
-
-
-
 game:GetService("StarterGui"):SetCore("SendNotification", { 
-Title = "Roblox";
-Text = "Sussy Activity after 5 days u will be banned";
-Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
-
-game:GetService("StarterGui"):SetCore("SendNotification", { 
-Title = "Pop it trading script";
-Text = "By Anha#4156";
-Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
-
-game:GetService("StarterGui"):SetCore("SendNotification", { 
-Text = "";
-Title = "Helper: Kostya#3329";
-Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
-
-game:GetService("StarterGui"):SetCore("SendNotification", { 
-Text = "+9.9M Robux";
-Title = "Robux";
-Icon = "rbxthumb://type=Asset&id=1542459468&w=150&h=150"})
+Text = "By Z3";
+Title = "Leaked"})
 
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
